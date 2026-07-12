@@ -1,32 +1,16 @@
-# AssetFlow ONE — Backend
+# React + Vite
 
-## Quick Start
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-```bash
-# 1. Start PostgreSQL
-docker compose up -d
+Currently, two official plugins are available:
 
-# 2. Install dependencies
-pip install -r requirements.txt
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-# 3. Run migrations
-alembic upgrade head
+## React Compiler
 
-# 4. Seed demo data
-python seed.py
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-# 5. Start server
-uvicorn app.main:app --reload --port 8000
-```
+## Expanding the Oxlint configuration
 
-API docs available at: http://localhost:8000/docs
-
-## Demo Credentials
-
-| Role | Email | Password |
-|------|-------|----------|
-| Admin | admin@assetflow.dev | password123 |
-| Asset Manager | priya@assetflow.dev | password123 |
-| Dept Head (Eng) | rahul@assetflow.dev | password123 |
-| Dept Head (Ops) | sneha@assetflow.dev | password123 |
-| Employee | vikram@assetflow.dev | password123 |
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
