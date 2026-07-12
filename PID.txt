@@ -1,0 +1,15 @@
+PROJECT ID (PID)
+
+Project Name: AssetFlow Problem Statement: PS-1 Smart Hardware Asset
+Management Platform
+
+Objective: Create a centralized system to register, assign, track,
+maintain, and audit hardware assets.
+
+Modules: 1. Authentication 2. Asset Management 3. Employee Management 4.
+QR Tracking 5. Maintenance 6. Reports 7. Dashboard
+
+Expected Outcome: - Reduced asset loss - Faster audits - Better asset
+utilization - Complete lifecycle visibility
+
+Suggested Stack: React, FastAPI, PostgreSQL, Docker
